@@ -84,4 +84,5 @@ if __name__ == "__main__":
         print(f"\nТоп-{n} токенов по цене:")
         print("-" * 80)
         for i, token in enumerate(token_list, 1):
+
             print(f"{i:2d}. {token['name']:40} - ${token['price']:12.2f} - {token['link']}")
